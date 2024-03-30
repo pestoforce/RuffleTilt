@@ -25,18 +25,41 @@
     }
 
     .floater {
+        user-select: none;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: absolute;
-        width: 30px;
-        height: 30px;
+        min-height: 30px;
         background: black;
         top: 0;
         left: 0;
         z-index: 999;
+        color: white;
+        padding: 5px
+    }
+
+    .floaterbottom {
+        user-select: none;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        min-height: 30px;
+        background: black;
+        bottom: 0;
+        left: 0;
+        z-index: 999;
+        color: white;
+        padding: 5px
     }
 </style>
 <body style="background: #000000; margin: 0; height: 100%;">
     <div id="canvas-wrap" class="fill">
-        <div class="floater"></div>
+        <div id="floater" class="floater">Allow</div>
+        <div id="floaterbottom" class="floaterbottom"></div>
         <object id="output" type="application/x-shockwave-flash" data="RuffleTiltDemo.swf" class="fill">
             <param name="movie" value="RuffleTiltDemo.swf" />
             <param name="allowscriptaccess" value="always">
