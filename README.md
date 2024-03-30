@@ -3,6 +3,8 @@ ActionScript 2 (AS2) Interface for Ruffle Flash Emulation + Mobile Device Tilt (
 
 Functioning demo (access with a mobile device!): https://www.newgrounds.com/projects/games/5573976/preview
 
+https://www.youtube.com/watch?v=9RdtNLqDaHk
+
 - Uses well-documented Javascript events:
 
 https://developer.mozilla.org/en-US/docs/Web/API/Window/devicemotion_event
