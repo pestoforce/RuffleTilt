@@ -4,6 +4,7 @@ AS2 Interface for Ruffle Flash Emulation + Mobile Device Tilt (gyroscope, etc.)
 Functioning demo (access with a mobile device!): https://www.newgrounds.com/projects/games/5573976/preview
 
 - Uses well-documented Javascript events:
+
 https://developer.mozilla.org/en-US/docs/Web/API/Window/devicemotion_event
 https://developer.mozilla.org/en-US/docs/Web/API/Window/deviceorientation_event
 
