@@ -1,5 +1,5 @@
 # RuffleTilt
-AS2 Interface for Ruffle Flash Emulation + Mobile Device Tilt (gyroscope, etc.)
+ActionScript 2 (AS2) Interface for Ruffle Flash Emulation + Mobile Device Tilt (gyroscope, etc.)
 
 Functioning demo (access with a mobile device!): https://www.newgrounds.com/projects/games/5573976/preview
 
