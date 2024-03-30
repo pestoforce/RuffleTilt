@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <title>PestoForce - RuffleTilt Demo</title>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <script>
+        window.RufflePlayer.config = {
+            autoplay: "on",
+            unmuteOverlay: "hidden",
+            logLevel: "info",
+            preloader: false,
+        };
+    </script>
+    <script src="./RuffleTilt.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+</head>
+<style>
+    .fill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .floater {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background: black;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+</style>
+<body style="background: #000000; margin: 0; height: 100%;">
+    <div id="canvas-wrap" class="fill">
+        <div class="floater"></div>
+        <object id="output" type="application/x-shockwave-flash" data="RuffleTiltDemo.swf" class="fill">
+            <param name="movie" value="RuffleTiltDemo.swf" />
+            <param name="allowscriptaccess" value="always">
+        </object>
+    </div>
+</body>
+</html>
